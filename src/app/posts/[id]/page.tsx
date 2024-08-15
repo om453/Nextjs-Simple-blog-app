@@ -13,7 +13,7 @@ export default  async function Page({ params } : {
   })
 
   if(!post) {
-    // notFound
+    // notFound is a function that is used to return a 404 page
     notFound();
   }
 
